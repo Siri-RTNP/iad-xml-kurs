@@ -1,0 +1,9 @@
+<!ELEMENT kraftfahrzeuge (fahrzeug+)>
+
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT leergewicht (#PCDATA)>
+<!ELEMENT zylinder (#PCDATA)>
+<!ELEMENT hubraum (#PCDATA)>
+<!ELEMENT leistung (#PCDATA)>
+<!ELEMENT hoechstgescwindeigkeit (#PCDATA)>
+<!ELEMENT beschleunigung (#PCDATA)>

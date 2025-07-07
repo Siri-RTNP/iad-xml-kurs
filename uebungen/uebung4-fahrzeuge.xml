@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE kraftfahrzeuge SYSTEM "uebung4-fahrzeuge.dtd">
+
+<kraftfahrzeuge>
+	<fahrzeug>
+		<marke model="Z8">BMW</marke>
+		<leergewicht einheit="kg">1690</leergewicht>
+		<zylinder>8</zylinder>
+		<hubraum einheit="ccm">4941</hubraum>
+		<leistung einheit="kw">294</leistung>
+		<hoechstgescwindeigkeit einheit="kmh">250</hoechstgescwindeigkeit>
+		<0bis100 einheit="s">4,7</0bis100>
+	</fahrzeug>
+
+	<fahrzeug>
+		<marke model="SLK 32 AMG">Mercedes</marke>
+		<leergewicht einheit="kg">1495</leergewicht>
+		<zylinder>6</zylinder>
+		<hubraum einheit="ccm">3199</hubraum>
+		<leistung einheit="kw">260</leistung>
+		<hoechstgescwindeigkeit einheit="kmh">250</hoechstgescwindeigkeit>
+		<0bis100 einheit="s">5,2</0bis100>
+	</fahrzeug>
+
+	<fahrzeug>
+		<marke model="1.8 T quattro">Audi</marke>
+		<leergewicht einheit="kg">1395</leergewicht>
+		<zylinder>4</zylinder>
+		<hubraum einheit="ccm">1781</hubraum>
+		<leistung einheit="kw">165</leistung>
+		<hoechstgescwindeigkeit einheit="kmh">243</hoechstgescwindeigkeit>
+		<0bis100 einheit="s">6,4</0bis100>
+	</fahrzeug>
+</kraftfahrzeuge>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musiksammlung [
+    <!ELEMENT musiksammlung (album+)>
+    
+    <!ELEMENT album (autor?,
+                    bild?,
+                    title, 
+                    (interpret | gruppe), 
+                    gesamtspielzeit, 
+                    label, 
+                    lied*)>
+    <!-- Attribut definieren -->
+    <!ATTLIST album
+        typ (CD | MP3 | Vinyl | MC) "MP3"
+    >
+
+    <!ATTLIST autor
+        bewertung (0 | 1 | 2 | 3 | 4 | 5) "0"
+    >
+
+    <!ATTLIST title
+        stil (Schlager | Klassik | Pop | Rock | Independen | Volksmusik) #IMPLIED
+    >
+
+    
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT bild EMPTY>                
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT interpret (#PCDATA)>
+    <!ELEMENT gruppe (#PCDATA)>
+    <!ELEMENT gesamtspielzeit (#PCDATA)>
+    <!ELEMENT label (#PCDATA)>
+    <!ELEMENT lied (#PCDATA)>
+    
+    <!-- Entity einfügen und im Element "autor" nutzen -->
+    <!ENTITY mm "MAX Mustermann">
+    <!ENTITY bild1 SYSTEM "../images/bild1.png">
+]>
+
+<musiksammlung>
+   
+    <album typ="CD">
+        <autor bewertung="5">&mm;</autor>
+        <bild src="bild1"></bild>
+        <title stil="Pop">Play</title>
+        <interpret>Moby</interpret>
+        <gesamtspielzeit>63:03</gesamtspielzeit>
+        <label>Mute Records Limited</label>
+        <lied>Honey</lied>
+        <lied>Find my baby</lied>
+        <lied>Porcelain</lied>
+        <lied>Why does my heart feel so bad?</lied>
+        <lied>South side</lied>
+        <lied>Rushing</lied>
+        <lied>Bodyrock</lied>
+        <lied>Natural Blues</lied>
+        <lied>Machete</lied>
+    </album>
+    
+    <album>
+        <autor bewertung="1">&mm;</autor>
+        <bild src="bild1" />
+        <title stil="Rock">Fragmente</title>
+        <interpret>Mesh</interpret>
+        <gesamtspielzeit>54:48</gesamtspielzeit>
+        <label>T-Sommer Ltd.</label>
+        <lied>Trust on you</lied>
+        <lied>My defender</lied>
+        <lied>...</lied>
+    </album>
+    
+    <album typ="Vinyl">
+        <autor bewertung="0">&mm;</autor>
+        <title stil="Klassik">Minor earth and major sky</title>
+        <gruppe>a-ha</gruppe>
+        <gesamtspielzeit>55:06</gesamtspielzeit>
+        <label>Sony Music</label>
+        <lied>Minor earth and major sky</lied>
+        <lied>Little black</lied>
+        <lied>...</lied>
+    </album>
+    
+</musiksammlung>

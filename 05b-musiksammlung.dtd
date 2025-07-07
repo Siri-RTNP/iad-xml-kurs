@@ -1,0 +1,10 @@
+<!ELMENT musiksammlung (album+)>
+
+<!ELEMENT album(besityer, label, (interpret | gruppe), titel, lied*)>
+
+<!ELEMENT besitzer (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT interpret (#PCDATA)>
+<!ELEMENT gruppe (#PCDATA)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT lied (#PCDATA)>

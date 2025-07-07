@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<musiksammlung>
+	<album typ="Vinyl" spielzeit="33:03">
+		<!-- <typ>Vinyl</typ> -->
+		<label>Mute Records Limited</label>
+		<interpret>Moby</interpret>
+		<titel>Play</titel>
+		<lied>Honey</lied>
+		<lied>Find my baby</lied>
+		<lied>Procellain</lied>
+		<lied>Why does my heart feel so bad?</lied>
+		<lied>South side</lied>
+		<lied>Rushing</lied>
+		<lied>Bodyrock</lied>
+		<lied>Natural blues</lied>
+		<lied>Machete</lied>
+	</album>
+
+	<album typ="CD" spielzeit="35:06">
+		<label>Sony Music</label>
+		<gruppe>a-ha</gruppe>
+		<titel>Minor erath and major sky</titel>
+		<lied>Minor erat and major sky</lied>
+		<lied>...</lied>
+	</album>
+
+	<album typ="MP3" spielzeit="54:48">
+		<interpret>Mesh</interpret>
+		<titel>Fragmente</titel>
+		<label>T-Summer Ltd.</label>
+		<lied>Trust on you</lied>
+		<lied>My defender</lied>
+		<lied>...</lied>
+	</album>
+</musiksammlung>

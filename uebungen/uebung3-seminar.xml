@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE seminar [
+	<!ELEMENT seminar (titel, datum, ort, zeitplan+)>
+	<!ELEMENT titel (#PCDATA)>
+	<!ELEMENT datum (#PCDATA)>
+	<!ELEMENT ort (#PCDATA)>
+	<!ELEMENT zeitplan (zeit, thema+)>
+		<!ELEMENT zeit (#PCDATA)>
+		<!ELEMENT thema (#PCDATA)>
+	<!ELEMENT personen (person+)>
+		<!ELEMENT vorname (#PCDATA)>
+		<!ELEMENT nachname (#PCDATA)>
+]>
+
+
+
+<seminar xml:lang="de">
+	<titel>Einführung in XML</titel>
+	<datum>02.04 - 06.04</datum>
+	<ort>XML-Stadt</ort>
+
+	<zeitplan>
+		<zeit>09:00 Uhr</zeit>
+		<thema>Überblick</thema>
+		<thema>XHTML</thema>
+		<thema>XML-Struktur</thema>
+	</zeitplan>
+
+	<zeitplan>
+		<zeit>13:00 Uhr</zeit>
+		<thema>DTD entwickeln</thema>
+		<thema>Darstellung von XML mit XSL</thema>
+	</zeitplan>
+
+	<zeitplan>
+		<zeit>17:00 Uhr</zeit>
+		<thema>Ende</thema>
+	</zeitplan>
+
+	<personen>
+		<person anrede="Herr" typ="seminarleiter">
+			<vorname>Hans</vorname>
+			<nachname>Hauser</nachname>
+		</person>
+		<person anrede="Herr" typ="teilnehmer">
+			<vorname>Rolf</vorname>
+			<nachname>Rabicht</nachname>
+		</person>
+		<person anrede="Herr" typ="teilnehmer">
+			<vorname>Bruno</vorname>
+			<nachname>Brahms</nachname>
+		</person>
+		<person anrede="Frau" typ="teilnehmer">
+			<vorname>Sigrun</vorname>
+			<nachname>Sieghaar</nachname>
+		</person>
+		<person anrede="Frau" typ="teilnehmer">
+			<vorname>Linda</vorname>
+			<nachname>Landmann</nachname>
+		</person>
+	</personen>
+
+</seminar>
