@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<techData>
+
+  <kfz>
+    <hersteller>BMW</hersteller>
+    <modell>BMW Z8</modell>
+    <leergewicht>1690 kg</leergewicht>
+    <zylinder>8</zylinder>
+    <hubraum>4941 cm³</hubraum>
+    <leistung>294 kW</leistung>
+    <maxgeschw>250 km/h</maxgeschw>
+    <zero2hundred>4,7 s</zero2hundred>
+  </kfz>
+
+  <kfz>
+    <hersteller>Mercedes</hersteller>
+    <modell>SLK 32 AMG</modell>
+    <leergewicht>1495 kg</leergewicht>
+    <zylinder>6</zylinder>
+    <hubraum>3199 cm³</hubraum>
+    <leistung>260 kW</leistung>
+    <maxgeschw>260 km/h</maxgeschw>
+    <zero2hundred>5,s s</zero2hundred>
+  </kfz>
+
+  <kfz>
+    <hersteller>Audi</hersteller>
+    <modell>1.8 T quattro</modell>
+    <leergewicht>1395 kg</leergewicht>
+    <zylinder>4</zylinder>
+    <hubraum>1781 kg</hubraum>
+    <leistung>165 kW</leistung>
+    <maxgeschw>243 km/h</maxgeschw>
+    <zero2hundred>6,4 s</zero2hundred>
+  </kfz>
+
+</techData>

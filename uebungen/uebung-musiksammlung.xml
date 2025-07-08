@@ -19,7 +19,7 @@
     >
 
     <!ATTLIST title
-        stil (Schlager | Klassik | Pop | Rock | Independen | Volksmusik) #IMPLIED
+        stil (Schlager | Klassik | Pop | Rock | Independen | Volksmusik) #REQUIRED
     >
 
     

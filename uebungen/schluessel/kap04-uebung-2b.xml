@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE seminar SYSTEM "kap04-uebung-2b.dtd">
+
+<seminar>
+
+  <titel>Einführung in XML</titel>
+  <ort>XML-Stadt</ort>
+  <datum>02.04. - 06.04.</datum>
+
+  <zeitplan zeit="9:00 Uhr">
+    <thema>Überblick</thema>
+    <thema>XHTML</thema>
+    <thema>XML-Struktur</thema>
+  </zeitplan>
+  <zeitplan zeit="13:00 Uhr">
+    <thema>DTD entwickeln</thema>
+    <thema>Darstellung von XML in XSL</thema>
+  </zeitplan>
+  <zeitplan zeit="17:00 Uhr">
+    <thema>Ende</thema>
+  </zeitplan>
+
+  <person anrede="Herr" typ="Seminarleiter">
+    <vorname>Hans</vorname>
+    <nachname>Hauser</nachname>
+  </person>
+  <person anrede="Herr" typ="Teilnehmer">
+    <vorname>Rolf</vorname>
+    <nachname>Rabicht</nachname>
+  </person>
+  <person anrede="Frau" typ="Teilnehmer">
+    <vorname>Sigrun</vorname>
+    <nachname>Sieghaar</nachname>
+  </person>
+  <person anrede="Frau" typ="Teilnehmer">
+    <vorname>Linda</vorname>
+    <nachname>Landmann</nachname>
+  </person>
+  <person anrede="Herr" typ="Teilnehmer">
+    <vorname>Bruno</vorname>
+    <nachname>Brams</nachname>
+  </person>
+
+</seminar>

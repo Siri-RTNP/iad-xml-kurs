@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE verwaltung PUBLIC "https://verwaltung.de/TR/DTD/verwaltung.dtd">
+
+<verwaltung xmlns="http://irgendeineURL.de">
+	<daten>
+		<name>Müller</name>
+	</daten>
+	
+	<daten xmlns="http://mit-anrede.de">
+		<name anrede="Herr">Meier</name>
+	</daten>
+</verwaltung>

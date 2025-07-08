@@ -26,7 +26,7 @@
 <!ELEMENT jahr (#PCDATA)>
 <!ELEMENT bild (#PCDATA)>
 <!ATTLIST bild
-    <!-- hier eintragen -->
+    typ NOTATION (gif | jpg) #REQUIRED
     quelle CDATA #REQUIRED
 >
 

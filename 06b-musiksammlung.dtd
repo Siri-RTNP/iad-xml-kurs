@@ -1,9 +1,9 @@
-<!ELMENT musiksammlung (album+)>
+<!ELEMENT musiksammlung (album+)>
 
-<!ELEMENT album(besityer, label, (interpret | gruppe), titel, lied*)>
+<!ELEMENT album (besitzer, label, (interpret | gruppe), titel, lied*)>
 
-<!ALTLIST album typ (CD|Vinyl|MP3|MC) "MP3"
-				spielzeit CDATA #REQUIRED>
+<!ATTLIST album typ (CD|Vinyl|MP3|MC) "MP3"
+                spielzeit CDATA #REQUIRED>
 
 <!ELEMENT besitzer (#PCDATA)>
 <!ELEMENT label (#PCDATA)>

@@ -4,20 +4,16 @@
   <autor>Peter Müller</autor>
   <verlag>Rheinwerk</verlag>
   <titel>Einstieg in HTML und CSS</titel>
-  
-  <!-- ! Dieses Kapitel enthält kein wohlgegormtes XML ! -->
+
+  <!-- ! Dieses Kapitel enthält kein wohlgeformtes XML! -->
   <!-- <kapitel>
-    <ueberschrift>
-      <h1>, <h2>, <h3> bis <h6> sind Tags, die man in HTML nutzt um Überschriftenebenen auszuzeichnen.
-    </ueberschrift>
+    <ueberschrift><h1>, <h2>, <h3> bis <h6> sind Tags, die man in HTML nutzt um Überschriftenebenen auszuzeichnen.</ueberschrift>
   </kapitel> -->
 
   <kapitel>
-    <ueberschrift>
-      &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; bis &lt;h6&gt; sind Tags, die man in HTML nutzt um Überschriftenebenen auszuzeichnen.
-    </ueberschrift>
+    <ueberschrift>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; bis &lt;h6&gt; sind Tags, die man in HTML nutzt um Überschriftenebenen auszuzeichnen.</ueberschrift>
   </kapitel>
-  
+
   <kapitel>
     <ueberschrift>
       <![CDATA[
@@ -25,5 +21,5 @@
       ]]>
     </ueberschrift>
   </kapitel>
-
+  
 </buch>

@@ -10,7 +10,7 @@
                     label, 
                     lied*)>
     <!-- Attribut definieren -->
-    <!ALTLIST album typ (CD | MP3 | Vinyl | MC) "MP3"
+    <!ATTLIST album typ (CD | MP3 | Vinyl | MC) "MP3">
     
     <!ELEMENT autor (#PCDATA)>
     <!ELEMENT bild EMPTY>                
@@ -22,7 +22,7 @@
     <!ELEMENT lied (#PCDATA)>
     
     <!-- Entity einfügen und im Element "autor" nutzen -->
-    <!ENTITY mm "MAX Mustermann">
+    <!ENTITY mm "Max Mustermann">
     <!ENTITY bild1 SYSTEM "../images/bild1.png">
 ]>
 

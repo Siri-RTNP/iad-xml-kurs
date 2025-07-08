@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-
-<!DOCTYPE musiksammlung SYSTEM "05b-musiksammlung.dtd" [
+<!DOCTYPE musiksammlung SYSTEM "kap05-uebung-1.dtd"
+[
   <!ENTITY ja "Jörg Aderhold">
 ]>
-
-<!-- Sythax bei externer DTD außerhalb des Systems:
-
-<!DOCTYPE musiksammlung PUBLIC "http://www.musiksammlung.de/musiksammlung.dtd">
-
- -->
 
 <musiksammlung>
 
@@ -28,7 +22,7 @@
     <lied>Machete</lied>
   </album>
 
-  <album typ="Vinyl" spielzeit="35:06">
+  <album typ="Vinyl" spielzeit="35:06" bewertung="4">
     <besitzer>&ja;</besitzer>
     <label>Sony Music</label>
     <gruppe>a-ha</gruppe>
@@ -38,11 +32,12 @@
     <lied>...</lied>
   </album>
 
-  <album typ="MP3" spielzeit="54:48">
+  <album typ="MP3" spielzeit="54:48" bewertung="5">
     <besitzer>&ja;</besitzer>
-    <label>T-Summer Ltd.</label>
+    <label>Label</label>
     <interpret>Mesh</interpret>
     <titel>Fragmente</titel>
+    <label>T-Summer Ltd.</label>
     <lied>Trust on you</lied>
     <lied>My defender</lied>
     <lied>...</lied>

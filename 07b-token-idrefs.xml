@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE token [
 
-	<!ELEMENT token (person*)>
-		<!ELEMENT person (#PCDATA)>
-		<!ATTLIST person kennung ID #REQUIRED
-				  verwandt IDREFS #IMPLIED>
+<!ELEMENT token (person*)>
+  <!ELEMENT person (#PCDATA)>
+  <!ATTLIST person kennung ID #REQUIRED
+                   verwandt IDREFS #IMPLIED>
+
 ]>
 
 <token>
-	<person kennung="p1" verwandt="p4">Max Müller</person>
-	<person kennung="p2" verwandt="p3 p4">Max Mustermann</person>
-	<person kennung="p3" verwandt="p2 p4">Erwin Mustermann</person>
-	<person kennung="p4" verwandt="p2 p3 p1">Erika Mustermann</person>
+  <person kennung="p1" verwandt="p4">Max Müller</person>
+  <person kennung="p2" verwandt="p3 p4">Max Mustermann</person>
+  <person kennung="p3" verwandt="p2 p4">Erwin Mustermann</person>
+  <person kennung="p4" verwandt="p2 p3 p1">Erika Mustermann</person>
 </token>

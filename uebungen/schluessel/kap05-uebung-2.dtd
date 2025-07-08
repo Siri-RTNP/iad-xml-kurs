@@ -1,0 +1,17 @@
+<!ELEMENT musiksammlung (album+)>
+
+<!ELEMENT album (besitzer, label, (interpret | gruppe)+, titel, lied*)>
+<!ATTLIST album 
+          typ (CD|Vinyl|MP3|MC) "MP3"
+          spielzeit CDATA
+          bewertung (0|1|2|3|4|5) #IMPLIED
+>
+
+<!ELEMENT besitzer (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT interpret (#PCDATA)>
+<!ELEMENT gruppe (#PCDATA)>
+<!ELEMENT titel (#PCDATA)>
+<!ATTLIST titel stil (Schlager|Klassik|Pop|Rock|Independent|Volksmusik) #REQUIRED>
+
+<!ELEMENT lied (#PCDATA)>

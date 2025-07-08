@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!-- Processing Instruction bzw. Prolog-->
+<?xml version="1.0" encoding="UTF-8" ?><!-- Processing Instruction bzw. Prolog -->
 
 <!-- Root-Element -->
 <adressbuch>
-	<karte>
-	<!-- XML-spezifische Attribute -->
-		<vorname xml:lang="de">Werner</vorname>
-		<nachname xml:lang="de">Schulz</nachname>
 
-		<!-- 
-			space: Umgang mit Leerraum (im Quelltext)
-			mögl. Werte:
-			preserve => Leerräume so wie im Quelltext vorhanden verarbeiten
-			default => Wird der jeweiligen Anwendung überlassen
-		-->
-		<email xml:space="default">wschulz@gmx.de</email>
-		<foto></foto>
-	</karte>
+  <karte>
+  <!-- XML-spezifische Attribute -->
+    <vorname xml:lang="de">Werner</vorname>
+    <nachname xml:lang="de">Schulz</nachname>
 
-	<karte>
-		<vorname>Freddy</vorname>
-		<nachname>Kruger</nachname>
-		<email>fk@dreams.net</email>
+    <!-- 
+      space: Umgang mit Leerraum (im Quelltext)
+      mögl. Werte:
+      preserve  => Leerräume so wie im Quelltext vorhanden verarbeiten
+      default   => Wird der jeweiligen Anwendung überlassen
+    -->
+    <email xml:space="default">wschulz@gmx.de</email>
+    <foto></foto>
+  </karte>
 
-		<foto src="bild" hoehe="200" breite="100" />
-	</karte>
+  <karte>
+    <vorname>Freddy</vorname>
+    <nachname>Kruger</nachname>
+    <email>fk@dreams.net</email>
 
-	<besitzer>Max Wunderlich</besitzer>
+    <foto src="bild" hoehe="200" breite="100" />
+  </karte>
+
+  <besitzer>Max Wunderlich</besitzer>
 </adressbuch>

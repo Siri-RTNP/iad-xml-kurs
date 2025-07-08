@@ -3,24 +3,25 @@
 
 <!DOCTYPE musiksammlung [
   <!-- Definition der einzelnen Elemente -->
-  <!-- Syntax: 
-    <!ELEMENT elementname (textliche Inhalt ODER Kindelement)
+  <!-- Synthax:
+    <!ELEMENT elementname (texliche Inhalt ODER Kindelemente)>
   -->
+
   <!-- Festlegung der Anzahl von Kindelementen
     ? = 0 oder 1
     * = beliebig oft, auch 0 mal
-    + = beliebig oft, mindesten 1 mal
+    + = beliebig oft, mindestens 1 mal
       = genau 1 mal
   -->
 
-  <!--
+  <!-- 
     Leere Elemente:
     <!ELEMENT elementname EMPTY>
   -->
 
   <!-- 
     textlicher Inhalt: (#PCDATA)
-   -->
+  -->
 
   <!ELEMENT musiksammlung (album+)>
 

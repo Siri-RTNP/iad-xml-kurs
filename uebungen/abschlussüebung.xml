@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buch [
+<!ELEMENT buch (titel, autor, verlag, preis, masse, bilder, anfragegueltig, suchtwoerte)>
+<!ATTLIST 	buch
+			artnr CDATA #REQUIRED
+		  	ISBN10 CDATA #REQUIRED
+>
+
+	<!ELEMENT titel (#PCDATA)>
+	<!ATTLIST 	titel
+				kategorie (Prosa | Roman | Krimi | Fantasy | "Science Fiction" | Fachbuch | Reiseberciht | unbekannt) "unbekannt" #REQUIRED
+			  	ausgabe (Taschenbuch | "gebundene Ausgabe" | eBook | Hörbuch | unbekannt) "unbekannt" #REQUIRED
+			  	jahr CDATA #REQUIRED 
+	>
+
+	<!ELEMENT autor (#PCDATA)>
+	<!ELEMENT verlag (#PCDATA)>
+	<!ELEMENT preis (#PCDATA)>
+	<!ATTLIST preis einheit (euro) "euro">
+	<!ELEMENT masse (gewicht, breite, hoehe, tiefe)>
+		<!ELEMENT gewicht (#PCDATA)>
+		<!ATTLIST gewicht einheit (gramm) "gramm">
+		<!ELEMENT breite (#PCDATA)>
+		<!ATTLIST breite einheit (cm) "cm">
+		<!ELEMENT hoehe (#PCDATA)>
+		<!ATTLIST hoehe einheit (cm) "cm">
+		<!ELEMENT tiefe (#PCDATA)>
+		<!ATTLIST tiefe einheit (cm) "cm">
+	<!ELEMENT bilder (img+)>
+		<!ELEMENT img EMPTY>
+		<!ATTLIST 	img
+					grosse CDATA #REQUIRED
+					src CDATA #REQUIRED
+		>
+	<!ELEMENT anfragegueltig (#PCDATA)>
+	<!ELEMENT suchtwoerte (suchwort+)>
+		<!ELEMENT suchwort (#PCDATA)>
+	
+]>
+
+<buch artnr="0001" ISBN10="3551557411">
+	<titel  kategorie="Fantasy"
+			ausgabe="Taschenbuch" 
+			jahr="2018">
+		Harry Potter und der Stein der Weisen
+	</titel>
+	<autor>J.K. Rowling</autor>
+	<verlag>Carlsen</verlag>
+	<preis einheit="euro">18</preis>
+	<masse>
+		<gewicht einheit="gramm">500</gewicht>
+		<breite einheit="cm">14,8</breite>
+		<hoehe einheit="cm">22</hoehe>
+		<tiefe einheit="cm">2,8</tiefe>
+	</masse>
+	<bilder>
+		<img grosse="klein" src="bild1.jpeg" />
+		<img grosse="mittelgross" src="bild2.jpeg" />
+		<img grosse="gross" src="bild3.jpeg" />
+	</bilder>
+	<anfragegueltig>true</anfragegueltig>
+	<suchtwoerte>
+		<suchwort>Harry</suchwort>
+		<suchwort>Zauberer</suchwort>
+	</suchtwoerte>
+</buch>

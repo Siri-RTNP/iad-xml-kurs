@@ -1,0 +1,3 @@
+<!ELEMENT verwaltung (daten+)>
+<!ELEMENT daten (name)>
+<!ELEMENT name (#PCDATA)>

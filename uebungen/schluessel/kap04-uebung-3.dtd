@@ -1,0 +1,12 @@
+<!ELEMENT techData (kfz+)>
+
+<!ELEMENT kfz (hersteller, modell, leergewicht, zylinder, hubraum, leistung, maxgeschw, zero2hundred)>
+
+<!ELEMENT hersteller (#PCDATA)>
+<!ELEMENT modell (#PCDATA)>
+<!ELEMENT leergewicht (#PCDATA)>
+<!ELEMENT zylinder (#PCDATA)>
+<!ELEMENT hubraum (#PCDATA)>
+<!ELEMENT leistung (#PCDATA)>
+<!ELEMENT maxgeschw (#PCDATA)>
+<!ELEMENT zero2hundred (#PCDATA)>

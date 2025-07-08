@@ -1,0 +1,11 @@
+<!ELEMENT seminar (titel, ort, datum, zeitplan+, person+)>
+
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT ort (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT zeitplan (thema+)>
+<!ELEMENT person (vorname, nachname)>
+
+<!ELEMENT thema (#PCDATA)>
+<!ELEMENT vorname (#PCDATA)>
+<!ELEMENT nachname (#PCDATA)>

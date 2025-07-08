@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 
 <!DOCTYPE musiksammlung SYSTEM "06b-musiksammlung.dtd" [
-  <!ENTITY ja "Siriluck Rattanapong">
+  <!ENTITY ja "Jörg Aderhold">
 ]>
+
+<!-- Sythax bei externer DTD außerhalb des Systems:
+
+<!DOCTYPE musiksammlung PUBLIC "http://www.musiksammlung.de/musiksammlung.dtd">
+
+ -->
 
 <musiksammlung>
 

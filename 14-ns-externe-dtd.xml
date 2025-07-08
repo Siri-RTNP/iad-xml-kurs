@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE verwaltung SYSTEM "14-ns-externe-dtd.dtd" [
+
+	<!-- Attributliste für den extra-Namemsraum festlegen 
+		Attributwer = beliebige Zeichenfolge, aber durch #FIXED fesgelegt
+	-->
+	<!ATTLIST daten xmlns:extra CDATA #FIXED "http://mit-anrede.com">
+
+	<!-- Über den Namensraum "extra" kann nun das Attribut "anrede" dem Element "name" hinzugefügt werden -->
+	<!ALTLIST name extra:anrede (Herr|Frau) #IMPLIED>
+
+]>
+
+
+<verwaltung xmlns="http://irgendeineURL.de">
+	<daten>
+		<name>Müller</name>
+	</daten>
+	
+	<daten xmlns:extra="http://mit-anrede.de">
+		<name extra:anrede="Herr">Meier</name>
+	</daten>
+</verwaltung>

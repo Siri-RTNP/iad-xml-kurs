@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bildergelerie [
+
+	<!NOTATION gif89a SYSTEM "C:\Programme\gifviewer.exe">
+	<!NOTATION jpeg SYSTEM "C:\Programme\showjpegviewer.exe">
+
+	<!ENTITY bild1 SYSTEM "images/bild1.gif" NDATA gif89a>
+	<!ENTITY bild2 SYSTEM "images/bild2.gif" NDATA jpeg>
+
+	<!ELEMENT bildergelerie (img+)>
+	<!ELEMENT img EMPTY>
+	<!ATTLIST img src ENTITY #REQUIRED>
+
+]>
+
+<bildergelerie>
+	<img src="bild1" />
+	<img src="bild2" />
+</bildergelerie>

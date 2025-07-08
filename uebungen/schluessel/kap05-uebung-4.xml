@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE techData SYSTEM "kap05-uebung-4.dtd">
+
+<techData>
+
+  <kfz>
+    <hersteller>BMW</hersteller>
+    <modell>BMW Z8</modell>
+    <leergewicht einheit="kg">1690</leergewicht>
+    <zylinder>8</zylinder>
+    <hubraum einheit="ccm">4941</hubraum>
+    <leistung einheit="kW">294</leistung>
+    <maxgeschw einheit="kmh">250</maxgeschw>
+    <zero2hundred einheit="s">4,7</zero2hundred>
+  </kfz>
+
+  <kfz>
+    <hersteller>Mercedes</hersteller>
+    <modell>SLK 32 AMG</modell>
+    <leergewicht einheit="kg">1495</leergewicht>
+    <zylinder>6</zylinder>
+    <hubraum einheit="ccm">3199</hubraum>
+    <leistung einheit="kW">260</leistung>
+    <maxgeschw einheit="kmh">260</maxgeschw>
+    <zero2hundred einheit="s">5,2</zero2hundred>
+  </kfz>
+
+  <kfz>
+    <hersteller>Audi</hersteller>
+    <modell>1.8 T quattro</modell>
+    <leergewicht einheit="kg">1395 kg</leergewicht>
+    <zylinder>4</zylinder>
+    <hubraum einheit="ccm">1781</hubraum>
+    <leistung einheit="kW">165</leistung>
+    <maxgeschw einheit="kmh">243</maxgeschw>
+    <zero2hundred einheit="s">6,4</zero2hundred>
+  </kfz>
+
+</techData>
