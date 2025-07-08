@@ -1,0 +1,8 @@
+<!ELEMENT BookCatalogue (Book)*>
+<!ELEMENT Book (Title, Author, Date, ISBN, Publisher)>
+<!ATTLIST Book ItemNumber CDATA #REQUIRED>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>

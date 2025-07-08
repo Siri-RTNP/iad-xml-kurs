@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http:// www.w3.org/2001/XMLSchema">
+
+  <xs:element name="BookCatalogue"> 
+    <xs:complexType> <!-- komplexe Typen dürfen z.B. weitere Kind-Elemente besitzen -->
+      <xs:sequence> <!-- sequence gibt an, dass im Folgenden Kind-Elemente definiert werden -->
+
+        <xs:element name="Book"> <!-- Definiion eines Kind-Elements -->
+          <xs:complexType>
+            <xs:attribute name="ItemNumber" type="ItemNumberType" use="required" />
+            <xs:sequence>
+            
+              <xs:element name="Title" type="xs:string" />
+              <xs:element name="Author" type="xs:string" />
+              <xs:element name="Date" type="xs:date" />
+              <xs:element name="ISBN" type="xs:string" />
+              <xs:element name="Publisher" type="xs:string" />
+            
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType> 
+  </xs:element>
+
+  <xs:simpleType name="ItemNumberType">
+    <xs:restriction base="integer">
+      <xs:pattern value="\d{11}" />
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <standard:verwaltung xmlns:standard="http://irgendeineURL.de"
-				xml:extra="http://mit-anrede.com">
-	<standard:daten>
-		<standard:name>Müller</standard:name>
-	</standard:daten>
-	
-	<extra:daten>
-		<extra:name anrede="Herr">Meier</extra:name>
-	</extra:daten>
+                     xmlns:standard:="http://mit-anrede.com">
+  <standard:daten>
+    <standard:name>Müller</standard:name>
+  </standard:daten>
+
+  <extra:daten>
+    <extra:name anrede="Herr">Meier</extra:name>
+  </extra:daten>
+
 </standard:verwaltung>

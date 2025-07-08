@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE seminar SYSTEM "kap06-uebung-2.dtd" [
+    <!ATTLIST person xmlns:age CDATA #FIXED "http://ein-verflixter-namensraum.net">
+    <!ATTLIST person age:alter CDATA #IMPLIED>
+]>
+
+<seminar>
+
+    <seminar-thema>Einführung in XML</seminar-thema>
+    <datum>02.04. - 06.04.</datum>
+    <ort>Erfurt</ort>
+    <zeitplan>
+        <themen>
+            <zeit>09:00 Uhr</zeit>
+            <thema>Überblick</thema>
+            <thema>XHTML</thema>
+            <thema>XML-Struktur</thema>
+        </themen>
+        <themen>
+            <zeit>13:00 Uhr</zeit>
+            <thema>DTD entwickeln</thema>
+            <thema>Darstellung von XML mit XSL</thema>
+        </themen>
+        <themen>
+            <zeit>17:00 Uhr</zeit>
+            <thema>Ende</thema>
+        </themen>
+    </zeitplan>
+
+    <personen>
+        <person typ="Seminarleiter" anrede="Herr">
+            <vorname>Hans</vorname>
+            <nachname>Hauser</nachname>
+        </person>
+        <person xmlns:age="http://ein-verflixter-namensraum.net" age:alter="45" typ="Teilnehmer" anrede="Herr">
+            <vorname>Rolf</vorname>
+            <nachname>Rabicht</nachname>
+        </person>
+        <person typ="Teilnehmer" anrede="Frau">
+            <vorname>Sigrun</vorname>
+            <nachname>Sieghaar</nachname>
+        </person>
+        <person typ="Teilnehmer" anrede="Frau">
+            <vorname>Linda</vorname>
+            <nachname>Landmann</nachname>
+        </person>
+        <person typ="Teilnehmer" anrede="Herr">
+            <vorname>Bruno</vorname>
+            <nachname>Brahms</nachname>
+        </person>
+    </personen>
+</seminar>

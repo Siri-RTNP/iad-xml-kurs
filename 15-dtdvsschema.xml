@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE BookCatalogue SYSTEM "dtdvsschema.dtd">
+<!-- <!DOCTYPE BookCatalogue SYSTEM "dtdvsschema.dtd"> -->
 
+<BookCatalogue xmlns="http://www.ppedv.de/schema/BookCatalogue" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="dtdvsschema.xsd">
+    <Book ItemNumber="15429569234">
+        <Title>Computernetzwerke</Title>
+        <Author>Tanenbaum</Author>
+        <Date>1999</Date>
+        <ISBN>3-8272-9568-8</ISBN>
+        <Publisher>Prentice Hall</Publisher>
+    </Book>
+    <Book ItemNumber="50663205378">
+        <Title>1984</Title>
+        <Author>George Orwell</Author>
+        <Date>1995</Date>
+        <ISBN>3-548-22562-4</ISBN>
+        <Publisher>Ullstein</Publisher>
+    </Book>
+</BookCatalogue>

@@ -1,24 +1,23 @@
 <!ENTITY % ueberschrift "h1|h2|h3|h4|h5|h6">
-<!ENTITY % ausr "align (left|center|right|justify) #IMPLIED" >
-
+<!ENTITY % ausr "align (left|center|right|justify) #IMPLIED">
 
 <!ELEMENT html (head,body)>
 
 <!-- Definition des head-Elementes -->
 
-	<!ELEMENT body (%ueberschrift;*, p*)>
+  <!ELEMENT body (%ueberschrift;*, p*)>
 
-		<!ELEMENT h1 (#PCDATA)>
-		<!ATTLIST h1 %ausr;>
-		<!ELEMENT h2 (#PCDATA)>
-		<!ATTLIST h2 %ausr;>
-		<!ELEMENT h3 (#PCDATA)>
-		<!ATTLIST h3 %ausr;>
-		<!ELEMENT h4 (#PCDATA)>
-		<!ATTLIST h4 %ausr;>
-		<!ELEMENT h5 (#PCDATA)>
-		<!ATTLIST h5 %ausr;>
-		<!ELEMENT h6 (#PCDATA)>
-		<!ATTLIST h6 %ausr;>
-		<!ELEMENT p (#PCDATA)>
-		<!ATTLIST p %ausr;>
+    <!ELEMENT h1 (#PCDATA)>
+    <!ATTLIST h1 %ausr;>
+    <!ELEMENT h2 (#PCDATA)>
+    <!ATTLIST h2 %ausr;>
+    <!ELEMENT h3 (#PCDATA)>
+    <!ATTLIST h3 %ausr;>
+    <!ELEMENT h4 (#PCDATA)>
+    <!ATTLIST h4 %ausr;>
+    <!ELEMENT h5 (#PCDATA)>
+    <!ATTLIST h5 %ausr;>
+    <!ELEMENT h6 (#PCDATA)>
+    <!ATTLIST h6 %ausr;>
+    <!ELEMENT p (#PCDATA)>
+    <!ATTLIST p %ausr;>

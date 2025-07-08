@@ -1,4 +1,5 @@
-<!-- hier eintragen -->
+<!NOTATION jpg PUBLIC "-//ISO DIS 10918//NOTATION JPEG Graphics Format//EN">
+<!NOTATION gif PUBLIC "-//Compuserve//NOTATION Graphics Interchange Format//EN">
 
 <!-- Root-Element -->
 <!ELEMENT musiksammlung (album+)>
@@ -31,8 +32,3 @@
 >
 
 <!ELEMENT lied (#PCDATA)>
-    
-<!-- 
-  ! Übungen 
-  ? uebung-xml-k05
--->

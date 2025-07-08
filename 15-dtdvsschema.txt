@@ -1,0 +1,13 @@
+DTD vs. Schema                      DTD     Schema
+Syntax eines Elements                x       x
+Attribute                            x       x
+mögliche Kindelemente                x       x
+Werte f. Elemente u. Attribute       x       x
+Reihenfolge d. Elemente              x       x
+Anzahl d. mögl. Elemente                     x
+Datentyp d. Elemente u. Attribute            x
+eigene Datentypen                            x
+
+
+eXtensible Markup Language Schema Definition Language
+XML Schema Definition Language (XSD)

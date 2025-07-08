@@ -1,0 +1,21 @@
+<!-- Root-Element -->
+<!ELEMENT seminar (seminar-thema, datum, ort, zeitplan, personen)>
+
+<!-- Elemente der 2. Ebene -->
+<!ELEMENT seminar-thema (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT ort (#PCDATA)>
+<!ELEMENT zeitplan (themen+)>
+<!ELEMENT personen (person+)>
+
+<!-- Elemente der 3. Ebene -->
+<!ELEMENT themen (zeit, thema+)>
+<!ELEMENT person (vorname, nachname)>
+<!ATTLIST person typ (Seminarleiter | Teilnehmer)>
+<!ATTLIST person anrede (Herr | Frau)>
+
+<!-- Elemente der 4. Ebene -->
+<!ELEMENT zeit (#PCDATA)>
+<!ELEMENT thema (#PCDATA)>
+<!ELEMENT vorname (#PCDATA)>
+<!ELEMENT nachname (#PCDATA)>
