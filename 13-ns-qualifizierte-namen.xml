@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <standard:verwaltung xmlns:standard="http://irgendeineURL.de"
-                     xmlns:standard:="http://mit-anrede.com">
+                     xmlns:extra:="http://mit-anrede.com">
   <standard:daten>
     <standard:name>Müller</standard:name>
   </standard:daten>
